@@ -16,7 +16,7 @@ const HeroImage = () => {
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
-	return <img src={hero} alt="Hero" className="w-full h-full object-cover" />;
+	return <img src={hero} alt="Hero" className="w-screen object-cover" />;
 };
 
 export default HeroImage;
