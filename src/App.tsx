@@ -1,8 +1,14 @@
 import "./App.css";
+import HeroImage from "./HeroImage";
+import Logo from "./Logo";
 
 function App() {
-	// remember to use `import` for image links
-	return <></>;
+	return (
+		<>
+			<Logo />
+			<HeroImage />
+		</>
+	);
 }
 
 export default App;
