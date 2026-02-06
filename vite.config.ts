@@ -4,8 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/challenge-coming-soon/',
   plugins: [
-	tailwindcss(),
+    tailwindcss(),
     react({
       babel: {
         plugins: [['babel-plugin-react-compiler']],
