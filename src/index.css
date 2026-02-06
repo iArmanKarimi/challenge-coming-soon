@@ -15,6 +15,10 @@
 			hsl(0 80% 86%),
 			hsl(0 74% 74%));
 
+	--gradient-pink-50: linear-gradient(90deg,
+			hsl(0 80% 86% / 0.5),
+			hsl(0 74% 74% / 0.5));
+
 	/* 🔤 Typography */
 	--font-sans: "Josefin Sans", sans-serif;
 

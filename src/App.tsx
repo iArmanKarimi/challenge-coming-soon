@@ -2,7 +2,6 @@ import "./App.css";
 import Logo from "./Logo";
 import Content from "./Content";
 import HeroImage from "./HeroImage";
-import EmailInput from "./EmailInput";
 
 function App() {
 	return (
@@ -10,7 +9,6 @@ function App() {
 			<Logo />
 			<HeroImage />
 			<Content />
-			<EmailInput />
 		</div>
 	);
 }
