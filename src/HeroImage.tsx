@@ -19,7 +19,7 @@ const HeroImage = () => {
 			src={img}
 			alt="Hero"
 			className="w-full max-h-100 object-cover object-top 
-			xl:row-span-2 xl:max-h-screen xl:h-screen xl:object-center"
+			xl:row-span-2 xl:max-h-screen xl:h-screen xl:object-top"
 		/>
 	);
 };
