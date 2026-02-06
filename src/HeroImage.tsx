@@ -5,7 +5,8 @@ const HeroImage = () => {
 		<img
 			src={mobileHero}
 			alt="Hero"
-			className="w-full max-h-100 object-cover object-top"
+			className="w-full max-h-100 object-cover object-top 
+			xl:row-span-2"
 		/>
 	);
 };
