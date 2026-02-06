@@ -4,8 +4,8 @@ const Content = () => {
 	return (
 		<div
 			className="flex flex-col justify-center items-center p-4 gap-1 text-center
-			max-w-lg mx-auto pt-20 
-			xl:max-w-full
+			max-w-lg mx-auto pt-20 pb-50
+			xl:max-w-full xl:pb-0
 			xl:text-left xl:pt-0 xl:items-start xl:px-[25%] xl:mx-0 xl:w-full"
 		>
 			<h1 className="text-primary-pink tracking-widest text-6xl font-light">

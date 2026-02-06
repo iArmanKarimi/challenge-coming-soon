@@ -34,7 +34,7 @@ const EmailInput = () => {
 			</div>
 			<p
 				className={`${invalidEmail ? "block" : "hidden"} 
-					text-primary-red text-sm mt-2 ml-6`}
+					text-primary-red self-start text-sm mt-2 ml-6`}
 			>
 				Please provide a valid email
 			</p>

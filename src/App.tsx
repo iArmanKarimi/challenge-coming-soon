@@ -6,7 +6,7 @@ import HeroImage from "./HeroImage";
 function App() {
 	return (
 		<div
-			className="bg-(image:--gradient-light) h-screen 
+			className="bg-(image:--gradient-light) h-full
 			xl:items-center xl:overflow-auto
 			xl:grid xl:grid-cols-[2fr_1fr] xl:grid-rows-[auto_1fr] xl:gap-0"
 		>
