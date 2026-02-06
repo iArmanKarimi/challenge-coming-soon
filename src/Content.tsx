@@ -6,7 +6,9 @@ const Content = () => {
 			className="flex flex-col justify-center items-center p-4 gap-1 text-center
 		max-w-lg mx-auto pt-20"
 		>
-			<h1 className="text-primary-pink tracking-widest text-6xl">WE'RE</h1>
+			<h1 className="text-primary-pink tracking-widest text-6xl font-light">
+				WE'RE
+			</h1>
 			<h1 className="text-neutral-gray text-7xl">
 				COMING
 				<br />
