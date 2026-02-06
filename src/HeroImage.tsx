@@ -1,18 +1,10 @@
-import { useState, useEffect } from "react";
 import mobileHero from "/images/hero-mobile.jpg";
 import desktopHero from "/images/hero-desktop.jpg";
+import useIsXL from "./hooks/useIsXL";
 
 const HeroImage = () => {
-	const [img, setImg] = useState<string>(mobileHero);
-
-	const pickImg = () =>
-		window.innerWidth >= 1280 ? setImg(desktopHero) : setImg(mobileHero);
-
-	useEffect(() => {
-		pickImg();
-		window.addEventListener("resize", pickImg);
-		return () => window.removeEventListener("resize", pickImg);
-	}, []);
+	const isXL = useIsXL();
+	const img = isXL ? desktopHero : mobileHero;
 
 	return (
 		<img
