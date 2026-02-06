@@ -5,9 +5,11 @@ import desktopHero from "/images/hero-desktop.jpg";
 const HeroImage = () => {
 	const [img, setImg] = useState<string>(mobileHero);
 
+	const pickImg = () =>
+		window.innerWidth >= 1280 ? setImg(desktopHero) : setImg(mobileHero);
+
 	useEffect(() => {
-		const pickImg = () =>
-			window.innerWidth >= 1280 ? setImg(desktopHero) : setImg(mobileHero);
+		pickImg();
 		window.addEventListener("resize", pickImg);
 		return () => window.removeEventListener("resize", pickImg);
 	}, []);
